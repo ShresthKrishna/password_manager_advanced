@@ -179,7 +179,7 @@ def show_signup_screen():
     signup_username_entry.grid(row=1, column=1, padx=5, pady=5)
     signup_username_entry.focus()
 
-    signup_password_entry = Entry(signup_screen, width=30, show="*")
+    signup_password_entry = Entry(signup_screen, width=30, show="#")
     signup_password_entry.grid(row=2, column=1, padx=5, pady=5)
 
     signup_button = Button(signup_screen, text="Sign Up", width=15, command=register_user)
